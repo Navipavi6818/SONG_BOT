@@ -9,10 +9,8 @@ import pyrogram
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
-from config import API HASH
-from config import API ID
-from config import BOT TOKEN
-from config import PICS
+from config import Config
+
 BUTTONS = {}
 SPELL_CHECK = {}
 
