@@ -1,4 +1,4 @@
-@kanged from Eva maria
+#kanged from Eva maria
 
 import os
 from pyrogram import Client, filters
