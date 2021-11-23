@@ -18,7 +18,8 @@ SPELL_CHECK = {}
 
        
    @Client.on_message(filters.command('start'))
-        buttons = [[
+   async def start(client, message):
+       buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
