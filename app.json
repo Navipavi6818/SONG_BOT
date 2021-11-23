@@ -1,15 +1,15 @@
 {
     "name": "OMDbBot",
     "description": "Simple Telegram Bot To Get Info About Movies Using OMDb",
-    "logo": "https://telegra.ph//file/1fd0f08fc291a741de530.jpg",
+    "logo": "https://telegra.ph/file/de65abf86cfde85772e21.jpg",
     "keywords": [
         "telegram",
         "pyrogram",
         "telegram-bot",
-        "ArunSince2005"
+        "Song"
     ],
-    "repository": "https://github.com/Arun-TG/OMDb-Bot",
-    "website": "t.me/ArunSince2005",
+    "repository": "https://github.com/Navipavi6818/SONG_BOT",
+    "website": "https://github.com/Navipavi6818/SONG_BOT",
     "success_url": "https://t.me/N_A_V_I_P_A_V_I",
     "env": {
         "API_HASH": {
