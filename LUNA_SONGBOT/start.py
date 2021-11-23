@@ -17,8 +17,7 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
        
-        await query.answer()
-    elif query.data == "start":
+   @Client.on_message(filters.command('start'))
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
