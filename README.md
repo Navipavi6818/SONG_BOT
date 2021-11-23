@@ -1,6 +1,6 @@
 
 
-- [x] audio of song 
+- [x] Audio of song 
 - [x] Video of song
 - [x] Spelling Check Feature
 
@@ -42,6 +42,6 @@ You can deploy this bot anywhere.
 ```
 
 ##DEVOLOPER
- 
+ Every one in this journey I don't make this kanged from different bots 
 
 
