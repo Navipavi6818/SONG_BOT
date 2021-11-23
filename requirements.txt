@@ -1,7 +1,7 @@
-tgcrypto==1.2.2
-motor==2.4.0
-marshmallow==3.12.2
-umongo==3.0.0
+Pyrogram==1.2.9
+TgCrypto==1.2.2
+youtube_dl
+youtube_search_python
+youtube_search
 requests
-bs4
-imdbpy
+ffmpeg-python
