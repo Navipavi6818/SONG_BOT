@@ -41,7 +41,8 @@ You can deploy this bot anywhere.
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
 
-##DEVOLOPER
+## DEVOLOPER
+```
  Every one in this journey I don't make this kanged from different bots 
-
+```
 
