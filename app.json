@@ -1,41 +1,37 @@
 {
-    "name": "LunasongBot",
-    "description": "YOU CAN SEARCH SONG OR VIDEO OF SONG",
-    "stack": "container",
+    "name": "OMDbBot",
+    "description": "Simple Telegram Bot To Get Info About Movies Using OMDb",
+    "logo": "https://telegra.ph//file/1fd0f08fc291a741de530.jpg",
     "keywords": [
-      "telegram",     
-      "pyrogram",
-      "Song",
-      "Music",
+        "telegram",
+        "pyrogram",
+        "telegram-bot",
+        "ArunSince2005"
     ],
-    "website": "https://github.com/Navipavi6818/SONG_BOT",
-    "repository": "https://github.com/Navipavi6818/SONG_BOT",
+    "repository": "https://github.com/Arun-TG/OMDb-Bot",
+    "website": "t.me/ArunSince2005",
+    "success_url": "https://t.me/N_A_V_I_P_A_V_I",
     "env": {
-        "BOT_TOKEN": {
-            "description": "Your bot token.",
-            "required": true
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
-            "required": true
+            "description": "You API ID from my.telegram.org",
+            "value": ""
         },
-        "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
-            "required": true
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
         },
         "PICS": {
-            "description": "Add some telegraph link of pictures .",
-            "required": false
+            "description": "http//www.omdbapi.com/apikey.aspx",
+            "value": ""
         }
     },
-    "addons": [],
-    "buildpacks": [{
-        "url": "heroku/python"
-    }],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
+    "buildpacks": [
+        {
+            "url": "heroku/python"
         }
-    }
+    ]
 }
