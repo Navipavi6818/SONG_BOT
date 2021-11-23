@@ -25,8 +25,7 @@
             "value": ""
         },
         "PICS": {
-            "description": "Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
-",
+            "description": "Telegraph links of images to show in start message.( Multiple images can be used seperated by space )",
             "value": ""
         }
     },
