@@ -38,4 +38,4 @@ def lyrics(song):
         return text
 
 
-Ek.run()
+ek.run()
