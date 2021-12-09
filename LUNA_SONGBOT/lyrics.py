@@ -11,7 +11,7 @@ API = "https://apis.xditya.me/lyrics?song="
 
 
 
-@Ek.on_message(filters.private & filters.command(["lyrics"]))
+@Client.on_message(filters.private & filters.command(["lyrics"]))
 async def sng(bot, message):
         hy = await message.reply_text("`🔍Searching 🔎`")
         song = message.text
