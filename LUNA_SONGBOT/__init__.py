@@ -46,3 +46,5 @@ def get_text(message: Message) -> [None, str]:
             return None
     else:
         return None
+
+arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
