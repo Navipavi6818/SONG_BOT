@@ -1,7 +1,9 @@
 Pyrogram==1.2.9
 TgCrypto==1.2.2
-youtube_dl
-youtube_search_python
+yt-dlp
+youtube_search_python==1.4.9
 youtube_search
+lyrics_extractor
+asyncio
 requests
-ffmpeg-python
+Python_arq
