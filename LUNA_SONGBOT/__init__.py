@@ -1,6 +1,5 @@
 import os
-from os import environ
-from Python_ARQ import ARQ
+
 from pyrogram import Client
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Chat, Message, User
@@ -54,9 +53,5 @@ def get_text(message: Message) -> [None, str]:
     else:
         return None
 
-API_KEY = environ['API_KEY']
-ARQ_API_URL = "https://grambuilders.tech"
-ARQ_API_KEY = API_KEY
 
-
-arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
+arq = ARQ(A
