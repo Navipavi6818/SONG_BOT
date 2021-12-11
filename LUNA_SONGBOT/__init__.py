@@ -53,4 +53,7 @@ def get_text(message: Message) -> [None, str]:
     else:
         return None
 
+ARQ_API_URL = "https://grambuilders.tech"
+ARQ_API_KEY = ARQ_API
+
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
