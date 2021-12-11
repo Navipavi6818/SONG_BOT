@@ -52,7 +52,7 @@ def get_text(message: Message) -> [None, str]:
             return None
     else:
         return None
-
+ARQ_API = IOFSQS-OQZYNN-BUQTYY-ELYYOV-ARQ
 ARQ_API_URL = "https://grambuilders.tech"
 ARQ_API_KEY = ARQ_API
 
