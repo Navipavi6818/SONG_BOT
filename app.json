@@ -1,6 +1,6 @@
 {
-    "name": "OMDbBot",
-    "description": "Simple Telegram Bot To Get Info About Movies Using OMDb",
+    "name": "luna_bot",
+    "description": "Simple bot to get songs video andlyrics of songs ",
     "logo": "https://telegra.ph/file/de65abf86cfde85772e21.jpg",
     "keywords": [
         "telegram",
@@ -22,11 +22,7 @@
         },
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
-            "value": ""
-        },
-        "PICS": {
-            "description": "Telegraph links of images to show in start message.( Multiple images can be used seperated by space )",
-            "value": ""
+            "value": ""        
         }
     },
     "buildpacks": [
