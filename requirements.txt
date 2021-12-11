@@ -3,8 +3,8 @@ TgCrypto==1.2.2
 yt-dlp
 youtube_search_python==1.4.9
 youtube_search
-lyrics_extractor
+
 asyncio
 requests
-Python_arq
+
 future
