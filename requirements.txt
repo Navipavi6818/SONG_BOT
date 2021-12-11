@@ -8,7 +8,3 @@ asyncio
 requests
 Python_arq
 future
-time 
-wget 
-urllib 
-tswift
