@@ -1,5 +1,5 @@
 import os
-import PYTHON_ARQ
+from Python_ARQ import ARQ
 from pyrogram import Client
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Chat, Message, User
