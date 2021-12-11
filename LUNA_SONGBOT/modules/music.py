@@ -1,6 +1,5 @@
 from __future__ import unicode_literals
 import asyncio
-import math
 import io
 import os
 import time
