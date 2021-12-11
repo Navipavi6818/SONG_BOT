@@ -7,3 +7,4 @@ lyrics_extractor
 asyncio
 requests
 Python_arq
+future
