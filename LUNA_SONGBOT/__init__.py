@@ -53,7 +53,9 @@ def get_text(message: Message) -> [None, str]:
     else:
         return None
 
+API_KEY = environ['API_KET']
 ARQ_API_URL = "https://grambuilders.tech"
-ARQ_API_KEY = "IOFSQS-OQZYNN-BUQTYY-ELYYOV-ARQ"
+ARQ_API_KEY = API_KEY
+
 
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
